@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+
+# Modelo entrenado (pesa ~500MB, no va en GitHub)
+models/fakenews_model/
+models/logs/
+
+# Datasets grandes
+data/Fake.csv
+data/True.csv
+data/train_dataset.csv
+data/test_dataset.csv
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Cache de HuggingFace
+*.cache
+
+# Variables de entorno
+.env
+
+# VS Code
+.vscode/
+
+# Checkpoints del entrenamiento
+fakenews_model/
+checkpoint-*/
